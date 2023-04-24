@@ -1,21 +1,21 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "Use Case Template"
-author: eScience Institute, University of Washington
-logo: img/GeoSMART_logo.svg
+title: "Advanced Surveying and Geomatics course"
+author: David Shean
+logo: 
 only_build_toc_files: true
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/geo-smart/simple-template # Online location of your book
+  url: https://github.com/uw-cryo/AdvSurveying-Geomatics_course # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: 'force'
+  execute_notebooks: 'off'
 
 html:
   use_edit_page_button: true
