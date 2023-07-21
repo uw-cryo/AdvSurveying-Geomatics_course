@@ -3,34 +3,42 @@
 root: intro
 format: jb-book
 parts:
-- caption: About
+- caption: Resources
   chapters:
-    - title: Geosmart Website
-      url: https://geo-smart.github.io/index.html
-    - title: Project Pythia Foundations
-      url: https://foundations.projectpythia.org/landing-page.html
-    - title: About Use Case Library
-      file: chapters/about
+  - title: Syllabus
+    url: https://docs.google.com/document/d/16FgQ-kpwvQdcL72xMUFaASew1AxQq61-C4X_zZs6k40/edit
+  - title: Final Project
+    file: resources/project
 
-- caption: Tutorial
+- caption: GNSS
   chapters:
-    - file: chapters/motivation
-    - file: chapters/methods
-    - file: chapters/data
-    - file: chapters/development
-    - file: chapters/training
-    - file: chapters/evaluation
-    - file: chapters/workflow
-    - file: chapters/reproducibility
-    - file: chapters/conclusion
-    - file: chapters/todo
-    - file: chapters/questions
-    - file: chapters/troubleshooting
+    - title: Introduction
+      file: gnss/intro
+    - title: Static GNSS
+      file: gnss/static
+    - title: Real-time Kinematic (RTK) GNSS
+      file: gnss/rtk
+    - title: Post-processed Kinematic (PPK) GNSS
+      file: gnss/ppk
 
-- caption: Example Notebook
+- caption: Photogrammetry/SfM
   chapters:
-    - file: chapters/example
+    - title: Introduction
+      file: sfm/intro
+    - title: Close-range SfM
+      file: sfm/close-range
+    - title: UAV SfM, GCPs
+      file: sfm/uav1
+    - title: UAV SfM, RTK/PPK
+      file: sfm/uav2
 
-- caption: References
-  chapters:
-    - file: reference/glossary
+- caption: LiDAR
+  chapters: 
+    - title: Introduction
+      file: lidar/intro
+    - title: TLS
+      file: lidar/tls
+    - title: ALS
+      file: lidar/als
+    - title: ULS (UAV)
+      file: lidar/uls
